@@ -1,0 +1,307 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(196, 189, 189);
+    min-width: 900px;
+}
+
+header {
+    background-image: url("photo2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 60, 0);
+    font-size: 320%;
+    z-index: 1;
+    font-weight: bolder;
+    border: 2px solid;
+    margin: 0px;
+    top: 100px;
+}
+
+h2 {
+    color: black;
+    font-size: 22px;
+    z-index: 1;
+    font-weight: bolder;
+    border: 2px solid;
+    margin: 0px;
+}
+
+h3 {
+    color: rgb(255, 60, 0);
+    font-size: 50px;
+    position: absolute;
+    left: 35%;
+    top: 2.5%;
+}
+
+h4 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+
+.about {
+    position: absolute;
+    top: 100%;
+    font-size: 50px;
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+    height: 70%;
+    border-bottom-right-radius: 35%;
+}
+
+.para1 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 80%;
+}
+
+.experience {
+    position: absolute;
+    top: 160%;
+    width: 100%;
+    height: 150%;
+}
+
+.para2 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.formation {
+    position: absolute;
+    top: 310%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(220, 220, 220);
+    border-top-right-radius: 60%;
+}
+
+.para3 {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.para4 {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.diplome {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.diplome2 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.portfolio {
+    position: absolute;
+    top: 415%;
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    position: absolute;
+    top: 480%;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(220, 220, 220)
+}
+
+.para5 {
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+.comptefacebook {
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+}
+
+.souri1:hover {
+    background-color: rgba(240, 255, 240, 0.15);
+    border-radius: 10%;
+}
+
+.souri2:hover {
+    background-color: rgb(97, 96, 96, .15);
+    border-radius: 10%;
+}
+
+.souri3:hover {
+    background-color: rgba(240, 255, 240, 0.15);
+    border-radius: 10%;
+}
+
+.souri4:hover {
+    background-color: rgb(97, 96, 96, .15);
+    border-radius: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 60, 0);
+}
+
+img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.menu {
+    position: absolute;
+    top: 0%;
+    color: rgb(255, 60, 0);
+    margin: 0%;
+    padding-left: 0%;
+}
+
+nav>ul>li {
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    list-style-type: none;
+    width: 250px;
+    height: 60px;
+}
+
+.timeline {
+    position: absolute;
+    overflow-y: hidden;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 60, 0);
+    width: 3px;
+    height: 900px;
+    left: 725px;
+    top: 150px;
+}
+
+.timeline-item {
+    margin: 0 auto;
+    margin-left: 70px;
+}
+
+.timeline-item-detail {
+    cursor: default;
+    margin-bottom: 64px;
+    display: inline-block;
+}
+
+.timeline-item:first-child .timeline-item-detail {
+    margin-top: 200px;
+}
+
+.timeline-item-detail-date {
+    color: black;
+    font-size: 170%;
+    margin-left: 50px;
+}
+
+.timeline-item-detail-date .timeline-item-detail-marker .timeline-item-detail-description {
+    float: left;
+}
+
+.timeline-item-detail-marker {
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 32px;
+    height: 32px;
+    border: 3px solid rgb(255, 60, 0);
+    margin-left: 638px;
+    transition: transform .3s, background-color: .3s;
+}
+
+.timeline-item-detail:hover .timeline-item-detail-marker {
+    transform: scale(1);
+    background-color: rgb(255, 60, 0);
+}
+
+.timeline-item-detail-description {
+    padding: 16px;
+    color: black;
+    background-color: rgb(220, 220, 220, 0.996);
+    width: 400px;
+    border-radius: 4px;
+    margin-left: 750px;
+    margin-top: -90px;
+    word-wrap: break-word;
+    opacity: .9;
+    transition: opacity: .3s;
+}
+
+.timeline-item-detail-description:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 60, 0);
+    width: 85px;
+    height: 2px;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.timeline-item-detail:hover .timeline-item-detail-description {
+    opacity: 1;
+}
+
+.timeline-item-detail-description h5 {
+    font-size: 20px;
+}
+
+.timeline-item-detail-description p {
+    line-height: 20px;
+}
